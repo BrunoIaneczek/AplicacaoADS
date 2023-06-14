@@ -62,7 +62,7 @@ legend{
 .inputUser:valid ~ .labelInput{
     top: -20px;
     font-size: 12px;
-    color: dodgerblue;
+    color: #8C3E11;
 }
 #data_nascimento{
     border: none;
