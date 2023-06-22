@@ -1,0 +1,46 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+
+}
+
+body{
+    background-image:url(imagens/fundocorda.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:  center ;
+    background-attachment: fixed; 
+    
+    
+}
+
+#menu {
+    list-style-type: none;
+    background-color:rgba(0, 0, 0, 0.253);
+    text-align: center;
+    
+    
+}
+
+#menu li {
+    display: inline;
+    margin-right: 30px;
+}
+
+#menu li a {
+    display: inline-block;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 10px;
+    
+}
+#menu li a:hover{
+    background-image: linear-gradient(to right,#8C3E11,#40200E);
+}
+
+
