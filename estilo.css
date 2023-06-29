@@ -1,5 +1,5 @@
 
-<?php header("content-type: text/css"); ?>
+/*<?php header("content-type: text/css"); ?>*/
 
 *{
     font-family: Arial, Helvetica, sans-serif;
@@ -20,9 +20,35 @@ body{
     background-position: center center;
     background-attachment: fixed;
 }
+.container{
+    /*background-color: aqua;*/
+    height: 87vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    
+   
+}
+.imc {
+    display: none;
+    margin: 70px;
+    width: 350px;
+    height: 400px;
+    background-color: greenyellow;
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 15px;
+    line-height: 1.5;
+    font-size: 25px;
+    text-align: center;
+    
+    
+}
 .box{
     color: white;
-    position: relative;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -45,6 +71,16 @@ legend{
     position: relative;
 }
 .inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+.inputUserImc{
     background: none;
     border: none;
     border-bottom: 1px solid white;
@@ -85,7 +121,7 @@ legend{
     cursor: pointer;
     border-radius: 10px;
 }
-#submit:hover{
+#imcbotao,#submit:hover{
     background-image: linear-gradient(to right,#40200E,#8C3E11);
 }
 a{
@@ -97,6 +133,18 @@ a{
     border-radius: 10px;
 }
 a:hover{
+    background-image: linear-gradient(to right,#8C3E11,#40200E);
+}
+#imcbotao{
+    color: white;
+    padding: 8px;
+    font-size:15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #010d0000;
+    
+}
+#imcbotao:hover{
     background-image: linear-gradient(to right,#8C3E11,#40200E);
 }
 
