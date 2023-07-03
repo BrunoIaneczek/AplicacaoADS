@@ -34,7 +34,7 @@
 </head>
 <body>
     <header>
-        <a href="http://localhost/Aplicacao_ADS/homepage.html">home</a>  
+        <a href="http://localhost/Aplicacao_ADS/index.html">home</a>  
     </header>
     
     <div class="box">
