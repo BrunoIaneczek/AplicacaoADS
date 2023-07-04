@@ -6,7 +6,7 @@ function calculaImc() {
     let pesoNumber = Number(peso)
     let alturaNumber = Number(altura)
     let imc = pesoNumber/(alturaNumber**2).toFixed(2)
-
+    
     if(imc >=0 && imc < 18.49){
         document.getElementById('resultado').innerHTML ='Seu IMC é ' +imc.toFixed(2)+ ' e se encontra na faixa entre 0 e 18.5, você está abaixo do peso!'
     
